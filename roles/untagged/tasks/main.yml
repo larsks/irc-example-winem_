@@ -1,0 +1,4 @@
+---
+- name: an untagged task
+  debug:
+    msg: this is in the untagged role

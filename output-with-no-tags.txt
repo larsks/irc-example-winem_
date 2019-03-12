@@ -1,0 +1,21 @@
+
+PLAY [localhost] ******************************************************************************
+
+TASK [dependent : a dependent task] ***********************************************************
+ok: [localhost] => {
+    "msg": "this is in the dependent role"
+}
+
+TASK [sample : a sample task] *****************************************************************
+ok: [localhost] => {
+    "msg": "this is in the sample role"
+}
+
+TASK [untagged : an untagged task] ************************************************************
+ok: [localhost] => {
+    "msg": "this is in the untagged role"
+}
+
+PLAY RECAP ************************************************************************************
+localhost                  : ok=3    changed=0    unreachable=0    failed=0   
+

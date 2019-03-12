@@ -1,0 +1,16 @@
+
+PLAY [localhost] ******************************************************************************
+
+TASK [dependent : a dependent task] ***********************************************************
+ok: [localhost] => {
+    "msg": "this is in the dependent role"
+}
+
+TASK [sample : a sample task] *****************************************************************
+ok: [localhost] => {
+    "msg": "this is in the sample role"
+}
+
+PLAY RECAP ************************************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0   
+

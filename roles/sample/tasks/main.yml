@@ -1,0 +1,4 @@
+---
+- name: a sample task
+  debug:
+    msg: this is in the sample role

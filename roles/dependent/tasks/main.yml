@@ -1,0 +1,4 @@
+---
+- name: a dependent task
+  debug:
+    msg: this is in the dependent role
